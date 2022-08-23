@@ -42,7 +42,7 @@ class Like(models.Model):
     )
 
     def __str__(self):
-        return f"{self.like}"
+        return f"{self.movie}"
 
     class Meta:
         verbose_name = _("Like")
